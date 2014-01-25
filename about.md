@@ -1,31 +1,33 @@
 ---
 layout: page
-permalink: /about/index.html
-title: About
-description: Electrical Engineer, Mathematician, Entrepreneur
-headline: Hossain Mohammad Faysal
-tags: [Hossain, Mohd, Faysal]
-modified: 2013-11-04
+permalink: /about/
+title: About the Jekyll Theme
+tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
+modified: 2013-09-13
 image:
-  feature: Hossain-Mohd-Faysal.jpg
-  credit: 
-  location: The Pearl Qatar
-  creditlink: http://en.wikipedia.org/wiki/The_Pearl-Qatar
+  feature: so-simple-sample-image-4.jpg
+  credit: Michael Rose
+  creditlink: http://mademistakes.com
 ---
 
->"I find hope in the darkest of days, and focus in the brightest. I do not judge the universe."
--Dalai Lama
+Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes).
 
-My name is **Hossain Mohd. Faysal**, and this is my personal blog.  
+## So Simple Theme is all about:
 
-I am an MSc + PhD candidate in *Electrical Engineering* at the [School of Engineering and Applied Science](http://www.seas.upenn.edu/) at **University of Pennsylvania**. I am licensed as a Professional Engineer (P.E) to practice in the states of Texas, Massachusetts and California. I graduated with a B.Sc degree in EECS from Texas A&M University in 2011 and with a B.Sc degree in Mathematics from Massachusetts Institute of Technology in 2012, and currently focusing on Electrical Engineering for my post-graduate studies.
+* Responsive templates. Looking good on mobile, tablet, and desktop.
+* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
+* Minimal embellishments and subtle animations. 
+* Readable typography to make your words shine.
+* Support for large images to call out your favorite posts.
+* Disqus comments if you choose to enable.
+* Simple and clear permalink structure[^1].
+* Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
+* Vanilla [custom 404 page]({{ site.url }}/404.html) to get you started.
+* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/articles/so-simple-theme/code-highlighting-post/) to make your code examples look snazzy.
+* Simple search that overlays results based on post title.
+* [Grunt build script]({{ site.url }}/theme-setup/index.html#theme-development) for easier theme development.
+* [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) for search engines
 
-At some point in the not-terribly-distant future, I hope to found a self-sustaining collective of clever people, for fun, profit(?), and the promotion of human life in the universe. This might wind up in Qatar, Bangladesh, Scandinavia, the Massachusetts Bay Area, the SF Bay Area, Japan, Germany, or the dustbin of overly idealistic plans. (Yes, I have a special bin for overly idealistic plans. In my district they can't be recycled with residential mixed paper.) The most challenging aspect of this concept is to curtail unproductive competition with other people who will inevitably have the same idea. (Some sort of cooperative federation...) I'm presently looking for people who might be interested in being a part of such an organization.
+<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
 
-Anyways, for now I'm just working toward changing the face of Electrical Engineering forever. Not that I necessarily expect to succeed, but it's something to strive for, and it's a fun problem to work on.  
-
-I operate my own social network. You can register on it at http://social.hmfaysal.tk. Its free and its the easiest way to get in touch with me :)  
-
-This website was built with Jekyll and personifies my view that *human perspectives should be allowed to be shared without any barriers and restrictions.*. Click on the Technical Details button below to know more about that.  
-
-<a markdown="0" href="{{ site.url }}/technical-details" class="btn">Technical Details</a> <a markdown="0" href="{{ site.url }}" class="btn">Check out my blog</a> <a markdown="0" href="http://social.hmfaysal.tk/" class="btn">Join my Social Network</a>
+[^1]: Example: *domain.com/category-name/post-title*
